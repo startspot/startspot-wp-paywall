@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Startspot-WP-Paywall 0.1\n"
+"POT-Creation-Date: 2018-03-31 20:29+0200\n"
+"PO-Revision-Date: 2018-03-31 22:09+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: startspot-wp-paywall.php\n"
+
+msgid "Paywall"
+msgstr "Bezahlschranke"
+
+msgid "Deposit Address"
+msgstr "Bezahladresse"
+
+msgid "Costs/Hour"
+msgstr "Kosten/Stunde"
+
+msgid "refresh"
+msgstr "aktualisieren"
+
+msgid "open address in explorer"
+msgstr "die Adresse im Explorer öffnen"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Update paywall"
+msgstr ""
+
+msgid "Open address in explorer"
+msgstr ""
+
+msgid "Explorer"
+msgstr ""
+
+msgid "learn more"
+msgstr "mehr erfahren"
+
+msgid "Save changes"
+msgstr "Änderungen speichern"
+
+msgid "Kenfmcoin address"
+msgstr "Kenfmcoin Adresse"
+
+#~ msgid "Refresh"
+#~ msgstr "Aktualisieren"

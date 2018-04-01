@@ -1,1 +1,0 @@
-# startspot-wp-paywall
