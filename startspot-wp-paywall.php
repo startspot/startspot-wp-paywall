@@ -2,7 +2,7 @@
 /*
 Plugin Name: Startspot-WP-Paywall
 Description: Places a paywall after every more-tag into the user's post(s).
-Version: 0.1
+Version: 0.2
 Author: Jürgen Scholz
 Author URI: https://startspot.org
 */
@@ -83,8 +83,8 @@ function startspot_wp_paywall( $content ) {
                 if (isset($php->success) && $php->success === true) {
                     if (isset($php->result)) {
                         if (isset($php->result->DepositEndDate)) {
-                            $now = date("d.m.Y H:i:s T");
-                            $until = date("d.m.Y H:i:s T", strToTime($php->result->DepositEndDate));
+                            $now = date("Y-m-d H:i:s", strToTime($php->result->Date));
+                            $until = date("Y-m-d H:i:s", strToTime($php->result->DepositEndDate));
                             if ($now < $until) {
                                 return $content;
                             }
